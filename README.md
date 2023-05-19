@@ -253,7 +253,8 @@ Book details response
 {
   status: true,
   message: 'Books list',
-  data: {
+  data:
+  {
     "_id": ObjectId("88abc190ef0288abc190ef55"),
     "title": "How to win friends and influence people",
     "excerpt": "book body",
@@ -265,6 +266,7 @@ Book details response
     "releasedAt": "2021-09-17T04:25:07.803Z"
     "createdAt": "2021-09-17T04:25:07.803Z",
     "updatedAt": "2021-09-17T04:25:07.803Z",
+    
     "reviewsData": [
       {
         "_id": ObjectId("88abc190ef0288abc190ef88"),
@@ -274,6 +276,7 @@ Book details response
         rating: 4,
         review: "An exciting nerving thriller. A gripping tale. A must read book."
       },
+      
       {
         "_id": ObjectId("88abc190ef0288abc190ef89"),
         bookId: ObjectId("88abc190ef0288abc190ef55"),
@@ -293,6 +296,7 @@ Book details response no reviews
   message: 'Books list',
   
   data: {
+  
     "_id": ObjectId("88abc190ef0288abc190ef55"),
     "title": "How to win friends and influence people",
     "excerpt": "book body",
