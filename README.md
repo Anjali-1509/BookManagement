@@ -297,7 +297,9 @@ Book details response
     ]
   }
 }
+
 Book details response no reviews
+
 {
   status: true,
   message: 'Books list',
