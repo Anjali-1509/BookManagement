@@ -153,6 +153,7 @@ Refer below sample A Postman collection and request sample
 
 ### Response
 Successful Response structure
+
 {
   status: true,
   message: 'Success',
@@ -160,6 +161,7 @@ Successful Response structure
 
   }
 }
+
 Error Response structure
 {
   status: false,
