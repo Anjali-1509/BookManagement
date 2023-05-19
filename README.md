@@ -173,7 +173,9 @@ Collections
 
 users
 
+
 {
+
   _id: ObjectId("88abc190ef0288abc190ef02"),
   title: "Mr",
   name: "John Doe",
@@ -187,11 +189,13 @@ users
   },
   "createdAt": "2021-09-17T04:25:07.803Z",
   "updatedAt": "2021-09-17T04:25:07.803Z",
+  
 }
 
 books
 
 {
+
   "_id": ObjectId("88abc190ef0288abc190ef55"),
   "title": "How to win friends and influence people",
   "excerpt": "book body",
@@ -209,6 +213,7 @@ books
 reviews
 
 {
+
   "_id": ObjectId("88abc190ef0288abc190ef88"),
   bookId: ObjectId("88abc190ef0288abc190ef55"),
   reviewedBy: "Jane Doe",
@@ -254,7 +259,9 @@ Book details response
   status: true,
   message: 'Books list',
   data:
+  
   {
+  
     "_id": ObjectId("88abc190ef0288abc190ef55"),
     "title": "How to win friends and influence people",
     "excerpt": "book body",
