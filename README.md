@@ -12,7 +12,7 @@ Follow the naming conventions exactly as instructed.
 
 # Models
 
-User Model
+### User Model
 { 
   title: {string, mandatory, enum[Mr, Mrs, Miss]},
   name: {string, mandatory},
