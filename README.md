@@ -167,8 +167,11 @@ Error Response structure
   status: false,
   message: ""
 }
+
 Collections
+
 users
+
 {
   _id: ObjectId("88abc190ef0288abc190ef02"),
   title: "Mr",
@@ -184,7 +187,9 @@ users
   "createdAt": "2021-09-17T04:25:07.803Z",
   "updatedAt": "2021-09-17T04:25:07.803Z",
 }
+
 books
+
 {
   "_id": ObjectId("88abc190ef0288abc190ef55"),
   "title": "How to win friends and influence people",
@@ -199,7 +204,9 @@ books
   "createdAt": "2021-09-17T04:25:07.803Z",
   "updatedAt": "2021-09-17T04:25:07.803Z",
 }
+
 reviews
+
 {
   "_id": ObjectId("88abc190ef0288abc190ef88"),
   bookId: ObjectId("88abc190ef0288abc190ef55"),
@@ -208,8 +215,10 @@ reviews
   rating: 4,
   review: "An exciting nerving thriller. A gripping tale. A must read book."
 }
+
 Response examples
 Get books response
+
 {
   status: true,
   message: 'Books list',
@@ -234,7 +243,9 @@ Get books response
     }
   ]
 }
+
 Book details response
+
 {
   status: true,
   message: 'Books list',
