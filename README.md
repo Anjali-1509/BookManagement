@@ -14,6 +14,7 @@ Follow the naming conventions exactly as instructed.
 
 ### User Model
 { 
+
   title: {string, mandatory, enum[Mr, Mrs, Miss]},
   name: {string, mandatory},
   phone: {string, mandatory, unique},
@@ -26,6 +27,7 @@ Follow the naming conventions exactly as instructed.
   },
   createdAt: {timestamp},
   updatedAt: {timestamp}
+  
 }
 
 ### Books Model
